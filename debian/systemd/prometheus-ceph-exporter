@@ -1,0 +1,14 @@
+# Set the command-line arguments to pass to the service
+ARGS="-ceph.config /etc/ceph/ceph.conf -telemetry.addr 127.0.0.1:9128"
+
+# Usage of ./ceph_exporter:
+#  -ceph.config string
+#        path to ceph config file
+#  -ceph.user string
+#        Ceph user to connect to cluster. (default "admin")
+#  -exporter.config string
+#        Path to ceph exporter config. (default "/etc/ceph/exporter.yml")
+#  -telemetry.addr string
+#        host:port for ceph exporter (default ":9128")
+#  -telemetry.path string
+#        URL path for surfacing collected metrics (default "/metrics")

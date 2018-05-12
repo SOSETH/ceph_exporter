@@ -1,0 +1,7 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@ --buildsystem=golang --with=golang --with=systemd
+
+# Diable tests. Testing this requires a running ceph cluster which is unreasonable on a buildhost :/
+override_dh_auto_test:

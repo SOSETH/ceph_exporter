@@ -1,0 +1,5 @@
+ceph-exporter (2.0.0+git20171216.16c9efb-1) unstable; urgency=medium
+
+  * Initial release
+
+ -- Maximilian Falkenstein <mfalkenstein@sos.ethz.ch>  Sat, 12 May 2018 15:56:29 +0200
