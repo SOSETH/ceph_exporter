@@ -1,18 +1,12 @@
 Source: ceph-exporter
 Section: devel
 Priority: extra
-Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
-Uploaders: maxf <maxf@luna.m.njsm.de>
-Build-Depends: debhelper (>= 10),
-               dh-golang,
-	       dh-systemd,
-               golang-any,
-               golang-github-prometheus-client-golang-dev,
-	       librados-dev
+Maintainer: Maximilian Falkenstein <mfalkenstein@sos.ethz.ch>
+Build-Depends: debhelper (>= 10), dh-golang, dh-systemd, librados-dev
 Standards-Version: 3.9.8
 Homepage: https://github.com/digitalocean/ceph_exporter
-Vcs-Browser: https://anonscm.debian.org/cgit/pkg-go/packages/ceph-exporter.git
-Vcs-Git: https://anonscm.debian.org/git/pkg-go/packages/ceph-exporter.git
+Vcs-Browser: https://github.com/SOSETH/ceph_exporter
+Vcs-Git: https://github.com/SOSETH/ceph_exporter.git
 XS-Go-Import-Path: github.com/digitalocean/ceph_exporter
 
 Package: ceph-exporter
